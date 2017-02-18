@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.list-container {
+    flex: 1;
+}
+
+.todo-container {
+    flex: 1;
+}
+
+.list-container ul,
+.todo-container ul {
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.list-container ul li,
+.todo-container ul li {
+    display: block;
+    padding: 5px;
+    width: 80%;
+    margin-bottom: 3px;
+    border: 1px solid cornflowerblue;
+
+}
+
+.list-container input,
+.todo-container input{
+    padding: 5px;
+    display: block;
+    border: 1px solid darkgrey;
+    float: left;
+    width: 65%;
+    font-size: 18px;
+}
+
+.list-container button,
+.todo-container button{
+    padding: 5px;
+    display: block;
+    border: 1px solid darkgrey;
+    background: white;
+    color: cornflowerblue;
+    width: 15%;
+    font-size: 18px;
+}
